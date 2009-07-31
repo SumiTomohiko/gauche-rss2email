@@ -1,0 +1,11 @@
+(
+  (next-id 3)
+  (from "foo@example.com")
+  (to "bar@example.com")
+  (entries 
+    ((id 1) (tags "タグ") (url "http://127.0.0.1:10080/rss3"))
+    ((id 0) (tags) (url "http://127.0.0.1:10080/rss2"))
+    ((id 2) (tags "タグ2" "タグ1") (url "http://127.0.0.1:10080/rss4")))
+  (smtp (host "example.com") (port 10025)))
+
+;; vim: tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=scheme

@@ -1,0 +1,8 @@
+(
+  (next-id 256)
+  (from "")
+  (to "")
+  (entries)
+  (smtp (host "127.0.0.1") (port 25)))
+
+;; vim: tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=scheme

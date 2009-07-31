@@ -1,0 +1,22 @@
+#! gosh
+;; -*- coding: utf-8 -*-
+
+(use file.util)
+(use gauche.parseopt)
+
+(require "./tests/ghttpd")
+(import ghttpd)
+
+(define (main args)
+  (let* (
+      (name (path-sans-extension (car args)))
+      (port (open-output-file (format #f "~a.pid" name))))
+    (display (number->string (sys-getpid)) port)
+    (close-output-port port))
+
+  (let-args (cdr args) (
+      (document-root "r|document-root=s" ".")
+      (port "p|port=n" 80))
+    (ghttpd-start-server port document-root)))
+
+;; vim: tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=scheme

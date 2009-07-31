@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="/pg/xsl/rss_xsl.asp?blogurl=matsukimiyu" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<channel>
+    <title>松来未祐日記</title>
+    <link>http://blog.excite.co.jp/matsukimiyu</link>
+    <description>松来未祐公式ブログ</description>
+    <dc:language>ja</dc:language>
+    <dc:creator>matsukimiyu</dc:creator>
+    <dc:rights>Copyright 2008</dc:rights>
+    <dc:date>2008-05-11T00:43:09+09:00</dc:date>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <sy:updateBase>2003-06-01T12:00+09:00</sy:updateBase>
+    <image>
+        <title>松来未祐日記</title>
+        <url>http://md.exblog.jp/img/samplelogo.gif</url>
+        <link>http://blog.excite.co.jp/matsukimiyu</link>
+        <width>80</width>
+        <height>80</height>
+        <description>松来未祐公式ブログ</description>
+    </image>
+    <item>
+        <title>[PR] 注目のキーワード : すごい証拠金取引</title>
+        <link>http://www.excite.co.jp/relocate3/?co=jp/xbg/rss/21;http://www.excite.co.jp/search.gw?search=%E3%81%99%E3%81%94%E3%81%84%E8%A8%BC%E6%8B%A0%E9%87%91%E5%8F%96%E5%BC%95&amp;look=excite_jp&amp;charset=utf8</link>
+        <guid isPermaLink="true">http://www.excite.co.jp/relocate3/?co=jp/xbg/rss/21;http://www.excite.co.jp/search.gw?search=%E3%81%99%E3%81%94%E3%81%84%E8%A8%BC%E6%8B%A0%E9%87%91%E5%8F%96%E5%BC%95&amp;look=excite_jp&amp;charset=utf8</guid>
+        <dc:date>2008-05-10T18:49:21+09:00</dc:date>
+    </item>
+    </channel>
+</rss>

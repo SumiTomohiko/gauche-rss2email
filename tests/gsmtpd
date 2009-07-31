@@ -1,0 +1,23 @@
+#! gosh
+;; -*- coding: utf-8 -*-
+
+(use file.util)
+(use gauche.parseopt)
+
+(require "./tests/gsmtpd")
+(import gsmtpd)
+
+(define (main args)
+  (let* (
+      (name (path-sans-extension (car args)))
+      (port (open-output-file (format #f "~a.pid" name))))
+    (display (number->string (sys-getpid)) port)
+    (close-output-port port))
+
+  (let-args (cdr args) (
+      (spool-dir "s|spool-dir=s" "spool")
+      (port "p|port=n" 25)
+      (verbose "v|verbose" #f))
+    (gsmtpd-start-server port spool-dir verbose)))
+
+;; vim: tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=scheme

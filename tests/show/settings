@@ -1,0 +1,8 @@
+(
+  (next-id 1)
+  (from "foo@example.com")
+  (to "bar@example.com")
+  (entries)
+  (smtp (host "example.com") (port 10025)))
+
+;; vim: tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=scheme

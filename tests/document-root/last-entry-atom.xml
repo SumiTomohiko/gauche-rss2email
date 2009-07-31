@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed version="0.3" xml:lang="ja" xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>テストtitle</title>
+  <link rel="alternate" type="text/html" href="http://example.com/link"/>
+  <modified>2008-04-03T19:13:16+09:00</modified>
+  <tagline>テストtagline</tagline>
+  <generator url="http://example.com/generator">example.com/generator</generator>
+  <entry>
+    <title>テストエントリタイトル</title>
+    <link rel="alternate" type="text/html" href="http://example.com/entry/new" />
+    <id>http://example.com/id</id>
+    <issued>2008-04-03T19:13:16+09:00</issued>
+    <modified>2008-04-03T10:13:16Z</modified>
+    <created>2008-04-03T10:13:16Z</created>
+    <summary>テストエントリサマリ</summary>
+    <author><name>テスト著者名前</name></author>
+    <dc:subject />
+    <content mode="escaped" type="text/html" xml:lang="ja"><![CDATA[
+      <p>テストエントリコンテント</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>このエントリが送信されたらエラーです。</title>
+    <link rel="alternate" type="text/html" href="http://example.com/entry/last-entry-atom" />
+    <id>http://example.com/entry/last-entry-atom</id>
+    <issued>2008-04-03T19:13:16+09:00</issued>
+    <modified>2008-04-03T10:13:16Z</modified>
+    <created>2008-04-03T10:13:16Z</created>
+    <summary>このエントリが送信されたらエラーです。</summary>
+    <author><name>このエントリが送信されたらエラーです。</name></author>
+    <dc:subject />
+    <content mode="escaped" type="text/html" xml:lang="ja"><![CDATA[
+      <p>このエントリが送信されたらエラーです。</p>
+]]></content>
+  </entry>
+</feed>
+<!-- 
+vim: tabstop=2 shiftwidth=2 expandtab softtabstop=2
+-->

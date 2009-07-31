@@ -1,0 +1,8 @@
+#!@gosh@
+;; -*- coding: utf-8 -*-
+
+(use gr2e)
+
+(define (main args) (gr2e-main args))
+
+;; vim: tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=scheme
